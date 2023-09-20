@@ -1,5 +1,5 @@
 class GreetingsController < ApplicationController
-  def random
+  def index
     greeting = Message.order('RANDOM()').first
     render json: { greeting: greeting.greeting }
   end
