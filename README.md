@@ -103,7 +103,7 @@ Install this project with:
   bundle install
   npm install
   update credentials in database.yml file for postgreSQL
-  rails db:create (if you haven't created created database for the project yet)
+  rails db:create ( If you haven't created database for the project yet )
   rails db:migrate
   From rails console (rails c) add greeting messages to messages table in the databse
   Sample command below 
