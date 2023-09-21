@@ -89,6 +89,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
+  git clone
   cd my-folder
   git@github.com:baqar-abbas/hello-rails-react1.git
 ```
@@ -100,6 +101,20 @@ Install this project with:
 
 ```sh
   bundle install
+  npm install
+  update credentials in database.yml file for postgreSQL
+  rails db:create ( If you haven't created database for the project yet )
+  rails db:migrate
+  From rails console (rails c) add greeting messages to messages table in the databse
+  Sample command below 
+  Message.create([
+{greeting:'hello world'},
+{greeting:'welcome to my site'},
+{greeting:'Nice to see you!'},
+{greeting:'How can we help you today?'},
+{greeting:'Have a great day!'},
+])
+npm run build
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
